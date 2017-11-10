@@ -9,3 +9,4 @@ function sum_array($array) {
 
     return $sum;
 }
+
