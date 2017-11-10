@@ -6,7 +6,9 @@
 	
 		$total = $cal + $inputMin;
 
-		return array( 'ans' => $total , );
+		return [ 
+			'ans' => $total , 
+		];
 
 	}
 

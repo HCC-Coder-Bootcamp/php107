@@ -6,7 +6,7 @@
 				
 			$message = "This number is positive";
 
-			return array( 'message' => $message , );
+			$result = [ 'message' => $message , ];
 
 		}
 
@@ -14,9 +14,11 @@
 				
 			$message = "This number is negative";
 			
-			return array( 'message' => $message , );
+			$result = [ 'message' => $message , ];
 
 		}
+
+		return $result;
 
 	}
 
@@ -28,7 +30,7 @@
 
 			$message1 = "This number is even";
 
-			return array( 'message1' => $message1 , );
+			$result1 = [ 'message1' => $message1 , ];
 
 		}
 
@@ -36,9 +38,11 @@
 
 			$message1 = "This number is odd";
 
-			return array( 'message1' => $message1 , );
+			$result1 = [ 'message1' => $message1 , ];
 
 		}
+
+		return $result1;
 
 	}
 

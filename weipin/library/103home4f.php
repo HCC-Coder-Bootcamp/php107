@@ -12,7 +12,7 @@
 
 			$message = "This year is leap year";
 
-			return array( 'detect' => $message , );
+			$result = [ 'detect' => $message , ];
 
 		}
 
@@ -20,7 +20,7 @@
 
 			$message = "This year is not leap year";
 
-			return array( 'detect' => $message , );
+			$result = [ 'detect' => $message , ];
 
 		}
 
@@ -28,7 +28,7 @@
 
 			$message = "This year is leap year";
 
-			return array( 'detect' => $message , );
+			$result = [ 'detect' => $message , ];
 
 		}
 
@@ -36,9 +36,11 @@
 	
 			$message = "This year is not leap year";
 	
-			return array( 'detect' => $message , );
+			$result = [ 'detect' => $message , ];
 	
 		}
+
+		return $result;
 
 	}
 

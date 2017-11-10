@@ -22,6 +22,6 @@
 
 		}
 
-	} while ( $inputClass != 'x' && $inputScore != 'x' );
+	} while ( $inputClass != 'x' && $inputScore != 'x' && $inputClass != 'X' && $inputScore != 'X' );
 
  ?>

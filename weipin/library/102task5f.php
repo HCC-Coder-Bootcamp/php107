@@ -4,7 +4,7 @@
 	
 		$cal = $inputUSD * 4.19;
 	
-		return array( 'MYR' => $cal , );
+		return [ 'MYR' => $cal , ];
 	
 	}
 
@@ -12,7 +12,7 @@
 	
 		$cal = $inputMYR / 4.19;
 	
-		return array( 'USD' => $cal , );
+		return [ 'USD' => $cal , ];
 	
 	}
 

@@ -12,10 +12,11 @@
 	
 		$hour = $cal / 3600;
 
-		return array( 
+		return [
 			'hour' => $hour ,
 			'minutes' => $min ,
-			'seconds' => $seconds , );
+			'seconds' => $seconds , 
+		];
 			
 	}
 

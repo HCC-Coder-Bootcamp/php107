@@ -6,9 +6,10 @@
 			
 		$total = $input + $gst;
 
-		return array(
+		return [
 			'gst' => $gst , 
-			'total' => $total ,);
+			'total' => $total ,
+		];
 		
 	}
 
