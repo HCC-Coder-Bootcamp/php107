@@ -4,6 +4,8 @@
 
 	do {
 
+		echo PHP_EOL . "Convert seconds to hour, minute and seconds" . PHP_EOL;
+
 		$input = readline("Input Seconds: " . PHP_EOL);
 
 		if ($input != 'x') {
@@ -14,6 +16,6 @@
 
 		}
 
-	} while ( $input !== 'x' )
+	} while ( $input !== 'x' && $input !== 'X' )
 
  ?>

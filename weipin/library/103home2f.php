@@ -6,7 +6,7 @@
 	
 			$ans = $number1;
 	
-			return array( 'smallest' => $number1 , );
+			$result = [ 'smallest' => $ans , ];
 	
 		}
 	
@@ -14,7 +14,7 @@
 	
 			$ans = $number2;
 	
-			return array( 'smallest' => $number2 , );
+			$result = [ 'smallest' => $ans , ];
 	
 		}
 	
@@ -22,9 +22,11 @@
 	
 			$ans = $number3;
 	
-			return array( 'smallest' => $number3 , );
+			$result = [ 'smallest' => $ans , ];
 	
 		}
+
+		return $result;
 	
 	}
 

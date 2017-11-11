@@ -8,7 +8,7 @@
 	
 				$message = "***Pass***";
 
-				return array( 'message' => $message , );
+				$result = [ 'message' => $message , ];
 
 			}
 	
@@ -16,7 +16,7 @@
 	
 				$message = "***Fail***";
 
-				return array( 'message' => $message , );
+				$result = [ 'message' => $message , ];
 	
 			}
 	
@@ -28,7 +28,7 @@
 	
 				$message = "***Pass***";
 
-				return array( 'message' => $message , );
+				$result = [ 'message' => $message , ];
 	
 			}
 	
@@ -36,7 +36,7 @@
 	
 				$message = "***Fail***";
 
-				return array( 'message' => $message , );
+				$result = [ 'message' => $message , ];
 	
 			}
 	
@@ -48,7 +48,7 @@
 	
 				$message = "***Pass***";
 
-				return array( 'message' => $message , );
+				$result = [ 'message' => $message , ];
 	
 			}
 	
@@ -56,7 +56,7 @@
 	
 				$message = "***Fail***";
 
-				return array( 'message' => $message , );
+				$result = [ 'message' => $message , ];
 	
 			}
 	
@@ -68,7 +68,7 @@
 	
 				$message = "***Pass***";
 
-				return array( 'message' => $message , );
+				$result = [ 'message' => $message , ];
 	
 			}
 	
@@ -76,11 +76,13 @@
 	
 				$message = "***Fail***";
 
-				return array( 'message' => $message , );
+				$result = [ 'message' => $message , ];
 	
 			}
 	
 		}
+
+		return $result;
 	
 	}
 

@@ -6,7 +6,7 @@
 		
 			$message = "The largest number is $number1";
 		
-			return array( 'message' => $message , );
+			$result = [ 'message' => $message , ];
 		
 		}
 
@@ -14,7 +14,7 @@
 		
 			$message = "The largest number is $number2";
 		
-			return array( 'message' => $message , );
+			$result = [ 'message' => $message , ];
 		
 		}
 
@@ -22,9 +22,11 @@
 		
 			$message = "The largest number is $number3";
 		
-			return array( 'message' => $message , );
+			$result = [ 'message' => $message , ];
 		
 		}
+
+		return $result;
 
 	}
 

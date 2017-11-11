@@ -6,7 +6,7 @@
 			
 			$salary = "Invalid input";
 
-			return array( 'salary' => $salary , );
+			$result = [ 'salary' => $salary , ];
 
 		}
 
@@ -14,7 +14,7 @@
 			
 			$salary = $input * 10;
 			
-			return array( 'salary' => $salary  , );
+			$result = [ 'salary' => $salary  , ];
 		
 		}
 
@@ -22,7 +22,7 @@
 
 			$salary = "$2000";
 
-			return array( 'salary' => $salary , );
+			$result = [ 'salary' => $salary , ];
 		
 		}
 
@@ -32,7 +32,7 @@
 
 			$salary = $cal + 2000;
 
-			return array( 'salary' => $salary , );
+			$result = [ 'salary' => $salary , ];
 
 		}
 
@@ -40,9 +40,11 @@
 			
 			$salary = "I think you are a robot";
 
-			return array( 'salary' => $salary , );
+			$result = [ 'salary' => $salary , ];
 
 		}
+
+		return $result;
 	
 	}
 
