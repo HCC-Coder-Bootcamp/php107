@@ -13,8 +13,9 @@ function time_convert($total_time)
 
 		$hour = (int)($totalSeconds / 3600);
 
-		echo "There is $hour hour $totalMinutes minutes and $leftSeconds seconds." . PHP_EOL;
+		$msg = "There is $hour hour $totalMinutes minutes and $leftSeconds seconds.";
 	} else {
-		echo "";
+		$msg = "";
 	}
+	return $msg . PHP_EOL . PHP_EOL;
 }
