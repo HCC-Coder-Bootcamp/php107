@@ -1,9 +1,7 @@
 <?php 
 
-	require ('php103_1.php');
+require ('greeting.php');
 
-		$input = readline('time' . PHP_EOL);
+$input = readline('time' . PHP_EOL);
 
-		$result = greeting($input);
-
- ?>
+$result = greeting($input);
