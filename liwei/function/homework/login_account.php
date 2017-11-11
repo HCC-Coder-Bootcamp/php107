@@ -10,9 +10,9 @@ $user_name = readline('Username ' . PHP_EOL);
 
 $password =  readline('Password ' . PHP_EOL);
 
-$status = login_account($user_name,$password);
+$login_status = login_account($user_name,$password);
 
-if ($status['status'] == true) {
+if ($login_status == true) {
 	echo "Login Successful";
 }else{
 	echo "Login Failed Please Try Again";

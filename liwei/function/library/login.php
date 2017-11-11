@@ -18,8 +18,6 @@ if ($user_name == "alice" && $password == 12345 ) {
 
 }
 
-	return [
-		'status' => $status,
-	];
+	return $status,
 
 }

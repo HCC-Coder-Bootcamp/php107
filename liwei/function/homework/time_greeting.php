@@ -4,9 +4,9 @@ require('../library/time.php');
 	
 echo 'What time is it now?!!' . PHP_EOL;
 
-$Time = readline('Time' . PHP_EOL);
+$time = readline('Time' . PHP_EOL);
 
-$greeting = time_greeting($Time);
+$greeting = time_greeting($time);
 
 if ( $greeting['min'] > 60) {
 	
@@ -14,17 +14,17 @@ if ( $greeting['min'] > 60) {
 
 }else{
 
-	if ($Time <= 1159 AND $Time >= 0) {
+	if ($time <= 1159 AND $time >= 0) {
 
 	echo "Good Morning! It's ";
 	echo $greeting['hour'] . " : " . $greeting['min'] . " AM!";
 
-	} else if ($Time >= 1200 AND $Time <= 1759) {
+	} else if ($time >= 1200 AND $time <= 1759) {
 
 	echo "Good Afternoon! It's ";
 	echo $greeting['hour'] . " : " . $greeting['min'] . " PM!";
 
-	} else if ($Time >= 1800 AND $Time <= 2359) {
+	} else if ($time >= 1800 AND $time <= 2359) {
 
 	echo "Good Evening! It's ";
 	echo $greeting['hour'] . " : " . $greeting['min'] . " PM!";

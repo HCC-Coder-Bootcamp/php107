@@ -4,17 +4,17 @@
 
 	echo 'How long the time are you working this month?!!' . PHP_EOL;
 
-	$WorkingTime = readline('Hour' . PHP_EOL);
+	$work_time = readline('Hour' . PHP_EOL);
 
-	$working = working_time($WorkingTime);
+	$working = working_time($work_time);
 
-	if ($WorkingTime < 40 && $WorkingTime > 0 ) {
+	if ($work_time < 40 && $work_time > 0 ) {
 
 		echo "Part Time, your salary is " . PHP_EOL;
 
 		echo $working['part'];
 
-	} else if ($WorkingTime >= 40 && $WorkingTime <= 672 ) {
+	} else if ($work_time >= 40 && $work_time <= 672 ) {
 
 		echo "Full Time, your salary is " . PHP_EOL;
 

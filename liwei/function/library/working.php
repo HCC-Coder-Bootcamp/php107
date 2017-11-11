@@ -1,14 +1,14 @@
 <?php
 	
-	function working_time($WorkingTime){ 
+	function working_time($work_time){ 
 
-	$PartTime= $WorkingTime*10;
+	$part_time= $work_time*10;
 
-	$FullTime= (($WorkingTime-40)*40)+2000;
+	$full_time= (($work_time-40)*40)+2000;
 
 	return [
-		'full' => $FullTime,
-		'part' => $PartTime,
+		'full' => $full_time,
+		'part' => $part_time,
 	];
 /////
 	

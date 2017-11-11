@@ -1,17 +1,17 @@
 <?php
 
-function time_greeting($Time){
+function time_greeting($time){
 
-$TimeMin = $Time % 100;
+$time_min = $time % 100;
 
-$TimeProcess = $Time - $TimeMin - 100;
+$time_process = $time - $time_min - 100;
 
-$TimeHour = (($TimeProcess / 100) % 12 ) + 1;
+$time_hour = (($time_process / 100) % 12 ) + 1;
 
 return [
 
-	'min' => $TimeMin,
-	'hour' => $TimeHour,
+	'min' => $time_min,
+	'hour' => $time_hour,
 
 ];
 
