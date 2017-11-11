@@ -1,18 +1,14 @@
 <?php  
 
-function 
+function SmallestNumber($arrayNo)
+{
 
-	$arrayNO = [];
-
-	for ($i=0; $i < 11; $i++) { 
-		$arrayNO[] = readline('No: ');
-		echo "Array of number: " . PHP_EOL;
-		print_r($arrayNO);
+	$min = $arrayNo[0];
+	foreach ($arrayNo as $index => $number) {
+		if ($number < $min) {
+			$min = $number;
+		}	
 	}
-
-		$min = $arrayNO;
-		foreach ($arrayNO as $index => $number) {
-			if ($number < $min) {
-					$min = $number;
-				}	
-			}
+	return $min;
+}
+	
