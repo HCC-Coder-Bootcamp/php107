@@ -3,14 +3,14 @@
 	
 	$input = readline("Palindrome Checker : ");
 
-	$palindrome_number = reverse_numb($input);
+	$palindrome_number_result = reverse_number($input);
 
-	if ($palindrome_number['total'] / 10 == $palindrome_number['input']) {
+	if ($palindrome_number_result['total'] / 10 == $palindrome_number_result['input']) {
 
-		echo $palindrome_number['input'] . " is palindrome number.";	
+		echo $palindrome_number_result['input'] . " is palindrome number.";	
 
 	}else{
 
-		echo $palindrome_number['input'] . " is not palindrome number.";
+		echo $palindrome_number_result['input'] . " is not palindrome number.";
 
 	}

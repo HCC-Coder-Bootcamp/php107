@@ -3,17 +3,17 @@
   function prime_number($input){
 
   $status = "a";
-  $total = 2;
-  $prime = 4;
+  $loop_prime_min = 2;
+  $loop_prime_max = 4;
 
-	while ($total < $prime) {
+	while ($loop_min < $loop_prime_max) {
 
-		$prime--;
+		$loop_prime_max--;
 
-		if ($input == $prime) {
+		if ($input == $loop_prime_max) {
 			$status = "a";
 			
-		}else if ($input % $prime == 0 || $input == 1) {
+		}else if ($input % $loop_prime_max == 0 || $input == 1) {
 			$status = "not a";
 		}
 	}

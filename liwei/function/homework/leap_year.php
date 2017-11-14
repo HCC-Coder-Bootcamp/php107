@@ -6,11 +6,11 @@ echo "Gimme a year, i'll let you know is it leap year or not" . PHP_EOL;
 
 $input_year = readline('Year : ');
 
-$leap_function = leap_year($input_year);
+$leap_year_result = leap_year($input_year);
 
-if ($leap_function['leapF2'] == 0 AND $leap_function['leapB2'] == 0 OR
-	$leap_function['leapF2'] != 0 AND $leap_function['leapB2'] != 0 OR 
-	$leap_function['leapF2'] == 0 AND $leap_function['leapB3'] == 0 ) {
+if ($leap_year_result['leap_check3'] == 0 AND $leap_year_result['leap_check1'] == 0 OR
+	$leap_year_result['leap_check3'] != 0 AND $leap_year_result['leap_check1'] != 0 OR 
+	$leap_year_result['leap_check3'] == 0 AND $leap_year_result['leap_check2'] == 0 ) {
 
 	echo $input_year;
 	echo " is a Leap Year";

@@ -8,16 +8,16 @@ $min = (string)((int)($sec / 60 % 60));
 
 $second = (string)($sec % 60); 
 
-$hourAns = $hour . " Hour ";
+$hour_result = $hour . " Hour ";
 
-$minAns = $min . " minutes ";
+$min_result = $min . " minutes ";
 
-$secAns = $second . " second ";
+$sec_result = $second . " second ";
 
 return [
-	'hour' => $hourAns,
-	'min' => $minAns,
-	'sec' => $secAns,
+	'hour' => $hour_result,
+	'min' => $min_result,
+	'sec' => $sec_result,
 ];
 
 }

@@ -1,6 +1,6 @@
 <?php
 
-function money_changer($amount){
+function money_change($amount){
 
 $amount100 = (int)($amount / 100);
 

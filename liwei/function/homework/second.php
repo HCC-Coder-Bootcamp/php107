@@ -4,6 +4,6 @@
 
   $sec = readline('insert second' . PHP_EOL);
 
-  $time = second_to_time($sec);
+  $time_change_result = second_to_time($sec);
 
-  echo "It's " . ((string)$time['hour'] . $time['min'] . $time['sec']) . PHP_EOL; 
+  echo "It's " . ((string)$time_change_result['hour'] . $time_change_result['min'] . $time_change_result['sec']) . PHP_EOL; 

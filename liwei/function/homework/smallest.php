@@ -1,11 +1,11 @@
 <?php
 
 require ('../library/smallest_number.php');
-$array = [];
+$smallest_array = [];
 for ($i = 0; $i < 11; $i++) {
-	$array[] = readline("add 11 number - ");
+	$smallest_array[] = readline("add 11 number - ");
 	echo "contains : " . PHP_EOL;
-    print_r($array);
+    print_r($smallest_array);
 }
 $smallest = smallest_number($array);
 

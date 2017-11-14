@@ -1,5 +1,5 @@
 <?php 
-	function reverse_numb($input){
+	function reverse_number($input){
 	$input_number = $input;
 	$total = 0;
 	while ($input != 0) {

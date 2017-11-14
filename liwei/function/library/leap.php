@@ -2,20 +2,20 @@
 	
 	function leap_year($input_year){
 
-	$leap_yearB1 = $input_year % 100; 
+	$separate_year = $input_year % 100; 
 	
-	$leap_yearB2 = $leap_yearB1 / 4;
+	$leap_year_check1 = $separate_year / 4;
 	
-	$leap_yearB3 = $leap_yearB1 % 4;
+	$leap_year_check2 = $separate_year % 4;
 	
-	$leap_yearF1 = ($input_year - $leap_yearB1) / 100;
+	$separate_year_first_two = ($input_year - $separate_year) / 100;
 	
-	$leap_yearF2 = $leap_yearF1 % 4;
+	$leap_year_check3 = $separate_year_first_two % 4;
 
 	return [
-		'leapF2' => $leap_yearF2,
-		'leapB2' => $leap_yearB2,
-		'leapB3' => $leap_yearB3,
+		'leap_check3' => $leap_year_check3,
+		'leap_check1' => $leap_year_check1,
+		'leap_check2' => $leap_year_check2,
 	];
 
 }
