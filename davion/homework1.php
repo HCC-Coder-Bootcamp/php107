@@ -2,8 +2,10 @@
 
 require('demo/demo1.php');
 
-dollar('$return');
-myr('$returns');
+$input_dollar = readline('dollar = ');
+$input_ringgit = readline('ringgit = ');
+
+dollar($input_dollar, $input_ringgit);
 
 
 

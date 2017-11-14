@@ -4,21 +4,21 @@
 // task 5 demo
 // USD/MYR and MYR/USD rate conversion
 
-function dollar($return) {
+function dollar($input_dollar, $input_ringgit) {
 
-	$return = readline('usd = ');
-	$rate = 4.19;
-	$result = $return*$rate . PHP_EOL;
-	return print_r($result);
+	if ($input_dollar || $input_ringgit != 0) {
+
+		$rate = 4.19;
+		$input_dollar = $input_dollar*$rate . PHP_EOL;
+		$input_ringgit = $input_ringgit/$rate . PHP_EOL;
+	}
+
+	$money = [
+		'dollar_as_dollar' => $input_dollar,
+		'ringgit_as_ringgit' => $input_ringgit,
+	];
+
+echo (int)$money['dollar_as_dollar'] . PHP_EOL;
+echo (int)$money['ringgit_as_ringgit'] . PHP_EOL;
 
 }
-
-function myr($returns) {
-
-	$returns = readline('myr = ');
-	$rate = 4.19;
-	$results = $returns/$rate . PHP_EOL;
-	return print_r((int)$results);
-
-}
-
