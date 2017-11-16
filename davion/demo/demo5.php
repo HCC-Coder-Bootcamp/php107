@@ -1,31 +1,30 @@
 <?php
 
-function number($input, $result) {
+function average($number_input) {
 
-	if ($input != 'X') {
-		echo $input;
-		$result= 1;
-		$number = $input;
-		
-		while ($number > 0) {
-		$result= ($number + $result);
-			echo $number-- . PHP_EOL;
+	if ($number_input > 0) {
+
+		if ($number_input > 0) {
+
+			$total = 0;
+			$number = $number_input;
+
 		}
-		echo 'total ' . $result. PHP_EOL;
+
+		while ($number > 0) {
+
+			$total = $number + $total;
+			echo $number-- . PHP_EOL;
+
+		}
+		
+		echo 'total ' . $total . PHP_EOL;
+
 	}
 
+$average = $total / $number_input;
+echo 'average ' . (int)$average . PHP_EOL;
 
-
-
-	$final = $result/$input;
-	echo 'average ' . (int)$final . PHP_EOL;
-
-	$exit = 'X';
-	$exit = readline('Exit? ' . 'Select X' . PHP_EOL);
-
-	if ($exit != 'X') {
-		echo 'hi';
-	} elseif ($exit == 'X') {
-		echo 'successfully back';
-	}
 }
+
+

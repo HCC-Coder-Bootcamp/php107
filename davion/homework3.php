@@ -9,7 +9,7 @@ if ($option != 0) {
 	if ($option == 1){
 
 		$days = readline('Gimme know the days = ' . PHP_EOL);
-		echo day((int)$days);
+		echo day($days);
 
 	} elseif ($option == 2) {
 
