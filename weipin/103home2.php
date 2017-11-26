@@ -28,6 +28,6 @@
 	
 		}
 		
-	} while ( $number1 != 'x' && $number2 != 'x' && $number3 != 'x' && $number1 != 'X' && $number2 != 'X' && $number3 != 'X' ) ;		
+	} while ( $number1 != 'x' && $number2 != 'x' && $number3 != 'x' ) ;		
 
  ?>

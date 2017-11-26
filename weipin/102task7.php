@@ -16,6 +16,6 @@
 
 		}
 
-	} while ( $input != 'x' && $input != 'X' );
+	} while ( $input != 'x' );
 
  ?>

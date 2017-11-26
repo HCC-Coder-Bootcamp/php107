@@ -22,7 +22,7 @@
 	
 		}
 	
-	} while ( $inputHour != 'x' && $inputMin != 'x' && $inputHour != 'X' && $inputMin != 'X' );
+	} while ( $inputHour != 'x' );
 
 
  ?>

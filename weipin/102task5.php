@@ -36,6 +36,6 @@
 
 		}
 
-	} while ( $select != 'x' && $select != 'X' );
+	} while ( $select != 'x' );
 
 } ?>
